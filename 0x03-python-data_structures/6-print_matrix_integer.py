@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# 6-print_matrix_integer.py
-# Brennan D Baraban <375@holbertonschool.com>
 
 
 def print_matrix_integer(matrix=[[]]):
@@ -11,4 +9,4 @@ def print_matrix_integer(matrix=[[]]):
                 if j != (len(matrix[i]) - 1):
                     print(" ", end="")
 
-        print("")
+        print("--")
